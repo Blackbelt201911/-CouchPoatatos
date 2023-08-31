@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class moveingProjectiles : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public float bulletSpeed = 5;
+    public float bulletSpeed = 7;
     GameObject fireObject;
        
 
@@ -26,7 +26,7 @@ public class moveingProjectiles : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(bulletSpeed ,0f);
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 4f);
     
     
     }
