@@ -25,11 +25,6 @@ public class moveingProjectiles : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(bulletSpeed ,0f);
-        Destroy(gameObject, 4f);
-    
-    
+        
     }
-
-
 }
