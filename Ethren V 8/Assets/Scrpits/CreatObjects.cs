@@ -7,7 +7,16 @@ public class CreatObjects : MonoBehaviour
 {
      public GameObject ObjectToSpawn;
      public Transform Placetospawn;
+     public float DelayBetweenThrows = 5;
+     float lastThrowDate;
 
+
+
+
+    void Start()
+    {
+        lastThrowDate = Time.time;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -18,8 +27,20 @@ public class CreatObjects : MonoBehaviour
     }
     void SpawnObject()
     {
-        Instantiate(ObjectToSpawn, Placetospawn);
+        if ((Time.time - lastThrowDate > DelayBetweenThrows))
+        {
+            Instantiate(ObjectToSpawn, Placetospawn);
+            lastThrowDate = Time.time;
+        }
+
     }
+
+
+    
+
+    
+
+
 
 
 }
