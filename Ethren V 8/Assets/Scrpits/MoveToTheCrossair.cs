@@ -7,18 +7,10 @@ using UnityEngine;
 
 public class MoveToTheCrossair : MonoBehaviour
 {
-    public GameObject ThisGameObject;
-    public GameObject crossair;
     public float Speed = 12;
-   
-    
-    
     void Update()
     {
         Vector2 Mpos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = Vector2.MoveTowards(transform.position, Mpos, Speed * Time.deltaTime);
     }
-
-
-
 }
