@@ -11,9 +11,6 @@ GameObject:
   - component: {fileID: 1699807874339489669}
   - component: {fileID: 8238767256773369635}
   - component: {fileID: 4284815295496638778}
-  - component: {fileID: 3123533427021368285}
-  - component: {fileID: 2040254250127328026}
-  - component: {fileID: 4672597508106285470}
   m_Layer: 0
   m_Name: GhoastSwaord
   m_TagString: test
@@ -123,40 +120,3 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.19, y: 0.31}
   m_Direction: 0
---- !u!114 &3123533427021368285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5422330716715108571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a889ad45bcfce8b4bafc21d2c53c490e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 12
---- !u!114 &2040254250127328026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5422330716715108571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce3d27ba0819af149ade28e86cbcf02b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4672597508106285470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5422330716715108571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eabc5e3778b0d4a4a836e3a22d0d61a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

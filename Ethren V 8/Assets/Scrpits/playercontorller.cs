@@ -12,7 +12,12 @@ public class playercontorller : MonoBehaviour
     
     //Place to store movement it hasw nothing to do with dirtion i just called it that becasue
     private Vector2 moveDirtion;
+
     
+ 
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +29,10 @@ public class playercontorller : MonoBehaviour
     {
         inputManger(); // runs inputmanger look below for the inputmanger code
     }
+    
+    
+    
+    
     private void FixedUpdate() // FixedUpdate is better for phiclys stuff like movemnet
     {
         Move();
