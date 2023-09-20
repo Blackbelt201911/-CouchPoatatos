@@ -18,7 +18,7 @@ public class proMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.Translate(Vector2.right * Time.deltaTime * 20);
+        transform.Translate(Vector2.up * Time.deltaTime * 10);
     }
 
 }
