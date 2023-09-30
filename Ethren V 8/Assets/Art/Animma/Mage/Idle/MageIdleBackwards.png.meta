@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MageIdleBackwards_14
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 16
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672049ae62d4e3746a5984e2744476ae
+      internalID: -1271136383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleBackwards_0
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 15
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b790686fb72a7244eb425290528146ab
+      internalID: -1500257561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleBackwards_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 15
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e9a3d56e287e74da29483657b1611c
+      internalID: -2127726652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleBackwards_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 15
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acffc050524179c47997679b821f8929
+      internalID: 877824788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleBackwards_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 16
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7659005dd95264ebcae00ce050fd07
+      internalID: 1664057510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleBackwards_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 16
+        width: 23
+        height: 42
+      alignment: 9
+      pivot: {x: 0.48700947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bfafb3ca7d5c84896c34c89e17a733
+      internalID: -159241877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleBackwards_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 16
+        width: 23
+        height: 42
+      alignment: 9
+      pivot: {x: 0.48700947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27347d35a4dfc8c42b5d59d11f3c1c5d
+      internalID: 1297114491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleBackwards_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 14
+        width: 23
+        height: 42
+      alignment: 9
+      pivot: {x: 0.48700947, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e5d1f7280dea42a83c8828e1b703d
+      internalID: 747009686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MageIdleBackwards_0: -1500257561
+      MageIdleBackwards_1: -2127726652
+      MageIdleBackwards_10: 1062823822
+      MageIdleBackwards_11: -800009716
+      MageIdleBackwards_12: 2013983541
+      MageIdleBackwards_13: 257179841
+      MageIdleBackwards_14: -1271136383
+      MageIdleBackwards_15: 1051673514
+      MageIdleBackwards_2: 877824788
+      MageIdleBackwards_3: 1664057510
+      MageIdleBackwards_4: -159241877
+      MageIdleBackwards_5: 1297114491
+      MageIdleBackwards_6: 747009686
+      MageIdleBackwards_7: -239296424
+      MageIdleBackwards_8: 964862770
+      MageIdleBackwards_9: -1163617295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

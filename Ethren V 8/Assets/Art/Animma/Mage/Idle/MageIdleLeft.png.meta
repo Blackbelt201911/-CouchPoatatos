@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MageIdleLeft_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 15
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc0593b5b960d34ca95fae41f3ff13d
+      internalID: -247242120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleLeft_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04dd0f07c2f88e4da6cc3b9a31bc9e3
+      internalID: 1017914986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleLeft_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 15
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec103729ec71ab7488bb03126e57a017
+      internalID: 603023478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleLeft_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 15
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aff53c09233c4143a6b341e6c1702d5
+      internalID: 953174381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleLeft_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 15
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702412a0a367b344f9961db5c494dc0b
+      internalID: 920705670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleLeft_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3a65b06b4d99745806a4a4a676ed32
+      internalID: -1091194794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleLeft_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 16
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8d84f3f79961f4c99c058a80d1f815
+      internalID: -1728828994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageIdleLeft_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 16
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930bfd6657848c84eaf7431ea9931ce9
+      internalID: 203723473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MageIdleLeft_0: -247242120
+      MageIdleLeft_1: 1017914986
+      MageIdleLeft_10: 203723473
+      MageIdleLeft_11: -485716475
+      MageIdleLeft_12: 140912223
+      MageIdleLeft_13: 1796700539
+      MageIdleLeft_14: -286193369
+      MageIdleLeft_15: -1728828994
+      MageIdleLeft_2: -1458900221
+      MageIdleLeft_3: -627098867
+      MageIdleLeft_4: 2024566476
+      MageIdleLeft_5: -375284654
+      MageIdleLeft_6: 603023478
+      MageIdleLeft_7: 953174381
+      MageIdleLeft_8: 920705670
+      MageIdleLeft_9: -1091194794
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

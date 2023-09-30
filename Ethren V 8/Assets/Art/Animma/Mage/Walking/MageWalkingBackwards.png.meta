@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MageWalkingBackwards_14
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 16
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbcfa38f026dc044bfe252fb0fdcbde
+      internalID: -1976499580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageWalkingBackwards_0
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 15
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694b74210545b8748ac271d556cfda0f
+      internalID: -1799206109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageWalkingBackwards_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 15
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4c443a520d79545b0599683b418157
+      internalID: 545187905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageWalkingBackwards_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 15
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3a7e95e44061744a2035fa06ee6ce6
+      internalID: 1048431970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageWalkingBackwards_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 14
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d1ac59d6f21c7428c4ed79149294d5
+      internalID: 145931937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageWalkingBackwards_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 15
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185b4441bccb45546a45d854e6ee20ee
+      internalID: -1303606554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageWalkingBackwards_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 13
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4b6e0a1d0b65744b4f11db02f90b92
+      internalID: -672021425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageWalkingBackwards_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 13
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e87a868563dc294b82dfa533ede4ffb
+      internalID: 102760855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MageWalkingBackwards_0: -1799206109
+      MageWalkingBackwards_1: 545187905
+      MageWalkingBackwards_10: -868318082
+      MageWalkingBackwards_11: 355868680
+      MageWalkingBackwards_12: -1599857924
+      MageWalkingBackwards_13: 2019201224
+      MageWalkingBackwards_14: -1976499580
+      MageWalkingBackwards_15: 1977586015
+      MageWalkingBackwards_2: 1048431970
+      MageWalkingBackwards_3: 145931937
+      MageWalkingBackwards_4: -1303606554
+      MageWalkingBackwards_5: -672021425
+      MageWalkingBackwards_6: 102760855
+      MageWalkingBackwards_7: 461458201
+      MageWalkingBackwards_8: 2112343346
+      MageWalkingBackwards_9: 458504736
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
