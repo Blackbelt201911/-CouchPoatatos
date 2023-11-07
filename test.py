@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import Entry
+from ttkbootstrap import Label
 from ttkbootstrap.constants import *
 import ttkbootstrap as ttk
 
@@ -9,6 +10,9 @@ window = tk.Tk() #instantiate an instance of a window
 window.geometry("420x420")
 window.title("Spanish Conjactor")
 
+Noun_label = Label(window, text = "Noun", font =('Courier', 24))  
+Noun_label.pack()  
+
 #make varibles
 def All_cal():
    Noun_Entry_text = Noun_Entry.get()
@@ -16,9 +20,9 @@ def All_cal():
    print(Noun_Entry_text)
    print(Verb_Entry_text)
    sup = 0
-   res = '.'
-   c = input()
-   b = str(input())
+   res = Verb_Entry_text + ' conjcated to ' + Noun_Entry_text + ' is '
+   c = Noun_Entry_text
+   b = Verb_Entry_text
    a = [b]
    d = b.split()
    cat = len(d)
@@ -133,23 +137,14 @@ def All_cal():
 Noun_Entry = Entry(window, width= 40)
 Noun_Entry.pack(pady=10)
 
+Verb_label = Label(window, text = "Verb", font =('Courier', 24))  
+Verb_label.pack() 
+
 Verb_Entry = Entry(window, width= 40)
-Verb_Entry.place(relx=0.5, rely=0.5, anchor='center')
+Verb_Entry.pack(pady=10)
 
 #Create Buttons with proper position
-Noun_but = ttk.Button(window, text= "All Enter", command = All_cal)
-Noun_but.pack()
+All_but = ttk.Button(window, text= "All Enter", command = All_cal)
+All_but.pack()
 
 window.mainloop()
-
-
-
-
-
- 
-
-
- 
-
-
-
