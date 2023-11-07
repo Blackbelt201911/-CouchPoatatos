@@ -19,15 +19,30 @@ def All_cal():
    Verb_Entry_text = Verb_Entry.get()
    print(Noun_Entry_text)
    print(Verb_Entry_text)
+   
+   string = Verb_Entry_text
+   lst = []
+ 
+   for letter in string:
+        lst.append(letter)
+ 
+   print(lst)
+   
+   
+   
    sup = 0
    res = Verb_Entry_text + ' conjcated to ' + Noun_Entry_text + ' is '
    c = Noun_Entry_text
    b = Verb_Entry_text
    a = [b]
-   d = b.split()
+   d = lst
    cat = len(d)
    dog = cat - 2
    rabbit = d[dog] 
+   
+   
+   
+   
    if c == 'Yo':
       for i in d:
         sup += 1
