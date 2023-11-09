@@ -5,7 +5,6 @@ from ttkbootstrap.constants import *
 import ttkbootstrap as ttk
 
 
-
 window = tk.Tk() #instantiate an instance of a window
 window.geometry("420x420")
 window.title("Spanish Conjactor")
@@ -20,6 +19,8 @@ def All_cal():
    print(Noun_Entry_text)
    print(Verb_Entry_text)
    
+   
+   
    string = Verb_Entry_text
    lst = []
  
@@ -28,10 +29,8 @@ def All_cal():
  
    print(lst)
    
-   
-   
    sup = 0
-   res = Verb_Entry_text + ' conjcated to ' + Noun_Entry_text + ' is '
+   res = ''
    c = Noun_Entry_text
    b = Verb_Entry_text
    a = [b]
@@ -39,9 +38,7 @@ def All_cal():
    cat = len(d)
    dog = cat - 2
    rabbit = d[dog] 
-   
-   
-   
+   global output
    
    if c == 'Yo':
       for i in d:
@@ -49,6 +46,7 @@ def All_cal():
         res += i
         if sup == dog:
           res = res + 'o'
+          output = res
           print(res)
           break
    elif c == 'Tu' and rabbit == 'e':
@@ -57,6 +55,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'es'
+                output = res
                 print(res)
                 break
    elif c == 'Tu' and rabbit == 'a':
@@ -65,6 +64,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'as'
+                output = res
                 print(res)
                 break
    elif c == 'Tu' and rabbit == 'i':
@@ -73,6 +73,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'es'
+                output = res
                 print(res)
                 break
    elif c == 'Ella' or c == 'El' or c == 'Ud.'and rabbit == 'a':
@@ -81,6 +82,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'a'
+                output = res
                 print(res)
                 break  
    elif c == 'Ella' or c == 'El' or c == 'Ud.'and rabbit == 'i':
@@ -89,6 +91,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'e'
+                output = res
                 print(res)
                 break
    elif c == 'Ella' or c == 'El' or c == 'Ud.'and rabbit == 'e':
@@ -97,6 +100,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'e'
+                output = res
                 print(res)
                 break
    elif c == 'Nosotros' and rabbit == 'e':
@@ -105,6 +109,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'emos'
+                output = res
                 print(res)
                 break
    elif c == 'Nosotros' and rabbit == 'a':
@@ -113,6 +118,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'amos'
+                output = res
                 print(res)
                 break
    elif c == 'Nosotros' and rabbit == 'i':
@@ -121,6 +127,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'imos'
+                output = res
                 print(res)
                 break
    elif c == 'Ellas' or c == 'Ellos' or c == 'Uds.'and rabbit == 'e':
@@ -129,6 +136,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'en'
+                output = res
                 print(res)
                 break
    elif c == 'Ellas' or c == 'Ellos' or c == 'Uds.'and rabbit == 'i':
@@ -137,6 +145,7 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'en'
+                output = res
                 print(res)
                 break
    elif c == 'Ellas' or c == 'Ellos' or c == 'Uds.'and rabbit == 'a':
@@ -145,8 +154,14 @@ def All_cal():
             res += i
             if sup == dog:
                 res = res + 'an'
+                output = res
                 print(res)
                 break
+
+
+   output_lable = Label(window, text = output, font =('Courier', 24))  
+   output_lable.pack()  
+
 
 #Define an Entry widget
 Noun_Entry = Entry(window, width= 40)
