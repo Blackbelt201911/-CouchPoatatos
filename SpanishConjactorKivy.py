@@ -14,7 +14,7 @@ Config.set('graphics', 'resizable', True)
 class SpanishConjactor(App):
     def build(self):
          
-        Window.clearcolor = (1,1,1,1)
+        Window.clearcolor = (0,0,.1,9) 
 
         global rl
 
@@ -81,7 +81,7 @@ class SpanishConjactor(App):
         dog = cat - 2
         rabbit = d[dog] 
         global output
-   
+
         if c == 'Yo':
             for i in d:
                 sup += 1
@@ -201,7 +201,7 @@ class SpanishConjactor(App):
                     break
 
         output_lable = Label(text = output,
-                           pos_hint ={'center_x':.5, 'center_y':.2} 
+                           pos_hint ={'center_x':.5, 'center_y':.2}, 
                            )
         rl.add_widget(output_lable)
         return rl
