@@ -5,6 +5,7 @@ from kivy.uix.relativelayout import RelativeLayout
 from kivy.config import Config
 from kivy.uix.textinput import TextInput 
 from kivy.uix.label import Label
+from kivy.core.window import Window
 
 Config.set('graphics', 'resizable', True)
  
@@ -12,7 +13,9 @@ Config.set('graphics', 'resizable', True)
 
 class SpanishConjactor(App):
     def build(self):
-        
+         
+        Window.clearcolor = (1,1,1,1)
+
         global rl
 
         rl = RelativeLayout(size =(300, 300))
@@ -49,6 +52,8 @@ class SpanishConjactor(App):
         rl.add_widget(self.Noun)
         rl.add_widget(All_Enter)
         return rl
+        
+        
     
     
     
@@ -195,7 +200,7 @@ class SpanishConjactor(App):
                     print(res)
                     break
 
-        output_lable = Label(text =output,
+        output_lable = Label(text = output,
                            pos_hint ={'center_x':.5, 'center_y':.2} 
                            )
         rl.add_widget(output_lable)
