@@ -203,6 +203,11 @@ class SpanishConjactor(App):
         output_lable = Label(text = output,
                            pos_hint ={'center_x':.5, 'center_y':.2}, 
                            )
+        
+
+    
+        
+        
         rl.add_widget(output_lable)
         return rl
 
