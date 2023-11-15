@@ -1,4 +1,5 @@
 import kivy  
+import time
 from kivy.app import App  
 from kivy.uix.button import Button
 from kivy.uix.relativelayout import RelativeLayout
@@ -9,6 +10,7 @@ from kivy.core.window import Window
 
 Config.set('graphics', 'resizable', True)
  
+
 
 
 class SpanishConjactor(App):
@@ -46,6 +48,16 @@ class SpanishConjactor(App):
                         )
         All_Enter.bind(on_press = self.all_cal)
 
+        global output_lable
+
+        output_lable = Label(text = '',
+                        pos_hint ={'center_x':.5, 'center_y':.2}, 
+                        )
+        
+
+        
+        
+        rl.add_widget(output_lable)
         rl.add_widget(self.Verb)
         rl.add_widget(Verb_lable)
         rl.add_widget(Noun_lable)
@@ -62,7 +74,7 @@ class SpanishConjactor(App):
         print("" + self.Noun.text) 
         print("" + self.Verb.text)
         
-        
+        kbam = 1
         string = self.Verb.text
         lst = []
  
@@ -199,16 +211,11 @@ class SpanishConjactor(App):
                     output = res
                     print(res)
                     break
+        
+        output_lable.text = output
 
-        output_lable = Label(text = output,
-                           pos_hint ={'center_x':.5, 'center_y':.2}, 
-                           )
+            
         
-
-    
-        
-        
-        rl.add_widget(output_lable)
         return rl
 
 if __name__ == "__main__":
